@@ -1,5 +1,5 @@
 ﻿from unittest import TestCase
-from logic import solve
+from src.logic import solve
 
 
 class TestSolve(TestCase):
@@ -15,3 +15,4 @@ class TestSolve(TestCase):
         expected_result = 0
         actual_result = solve(n, m, c, edges)
         self.assertEqual(expected_result, actual_result, "бб")
+
